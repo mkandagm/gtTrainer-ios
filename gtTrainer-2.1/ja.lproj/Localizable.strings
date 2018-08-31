@@ -1,0 +1,18 @@
+﻿/* 
+   Localizable.strings
+   gtTrainer
+
+   Created by Masanori Kanda on 09/07/30.
+   Copyright 2009 com.mkanda. All rights reserved.
+ */
+
+"Please add music to play"	= "再生させる曲を追加してください。";
+"iPod library changed."		= "iPodライブラリが変更されました。";
+"Please confirm Music list."	= "Music listを確認してください。";
+"Please quit and launch again gtTrainer." = "gtTrainerを起動し直してください。";
+"AlertDiscardMusicList_title"		= "Music list を全て削除してよろしいですか？";
+"Done"								= "完了";
+"Edit"								= "編集";
+"Cancel"							= "キャンセル";
+"OnButtonAction_Discard"			= "全て削除";
+"helphtml"							= "index-j";

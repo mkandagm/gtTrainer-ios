@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>About gtTrainer</title>
+	<style>
+		body {
+			margin: 0;
+			font-size: 16px; font-family: Helvetica, Arial;
+			background-color: white;
+		}
+		.image-left {
+			float: left;
+			margin: 10px 10px 10px 10px;
+		}
+		h1 {
+			margin: 0;
+			display: block;
+			background-color: #889DB4;
+			padding: 10px;
+			color: white;
+			width: 300px;
+			text-shadow: 0px 1px 0px black;
+			font-size: 22px;
+			border: solid black;
+			border-width: 0 0 1px 0;
+		}
+		h2 {
+			margin: 10px 0 0 0;
+			display: block;
+			background-color: #889DB4;
+			padding: 10px;
+			color: white;
+			width: 300px;
+			text-shadow: 0px 1px 0px black;
+			font-size: 18px;
+			border: solid black;
+			border-width: 1px 0 1px 0;
+		}
+		p {
+			margin: 0 0 0 0;
+			width: 300px; 
+			overflow: visible; 
+			padding:5px;
+		}
+		.toc {
+			margin: 0 0 0 0;
+			display: block;
+			text-decoration: none;
+			font-weight: bold;
+			background-color: #BFBFBF;
+			padding: 10px;
+			color: black;
+			width: 300px;
+			text-shadow: 0px 1px 0px white;
+			font-size: 18px;
+			border: solid white;
+			border-width: 0 0 1px 0;
+		}
+		.toc-sub {
+			margin: 0 0 0 0;
+			display: block;
+			text-decoration: none;
+			font-weight: bold;
+			background-color: #BFBFBF;
+			padding: 10px;
+			color: black;
+			width: 300px;
+			text-shadow: 0px 1px 0px white;
+			font-size: 16px;
+			border: solid white;
+			border-width: 0 0 1px 0;
+		}
+		.listsub1 {
+			background-color: #F0F0FF;
+		}
+		.codeview {	font-size: 12px;
+	font-style: normal;
+}
+    </style>
+</head>
+
+<body>
+	<h1>gtTrainer</h1>
+<p class="codeview">&nbsp;</p>
+<p class="codeview">・ループ再生機能付きミュージックプレイヤです。<br />
+	  ・CDプレイヤと同じ感覚で使用できます。<br />
+	  ・再生させる曲はiPodライブラリから指定します。<br />
+	  ・Music listは保存され、次回起動時にも利用できます。
+    </p>
+	<p><span class="codeview">［ボタンコントローラの説明</span><span class="codeview">］</span></p>
+	<table width="319" border="0">
+	  <tr>
+	    <td width="110"><div align="center"><span class="codeview"><img src="img/gtbtn/loop.jpg" width="62" height="52" align="middle" /></span></div></td>
+	    <td width="199"><span class="codeview">ループ再生を切り替えます。<br>
+	      OFFからONにするときには、ループ再生の開始点に移動します
+	    。</span></td>
+      </tr>
+	  <tr class="listsub1">
+	    <td><div align="center"><span class="codeview"><img src="img/gtbtn/in.jpg" alt="" width="51" height="52" /></span></div></td>
+	    <td><span class="codeview">ループ再生の開始点を指定します。</span></td>
+      </tr>
+	  <tr>
+	    <td><div align="center"><span class="codeview"><img src="img/gtbtn/out.jpg" alt="" width="51" height="52" /></span></div></td>
+	    <td><span class="codeview">ループ再生の終了点を指定します。</span></td>
+      </tr>
+	  <tr class="listsub1">
+	    <td><div align="center"><span class="codeview"><img src="img/gtbtn/inouttime.jpg" alt="" width="102" height="51" /></span></div></td>
+	    <td><span class="codeview">ループ再生の開始終了時間を表示します。</span></td>
+      </tr>
+	  <tr>
+	    <td height="90"><div align="center"><span class="codeview"><img src="img/gtbtn/prev.jpg" alt="" width="65" height="52" align="middle" /></span></div></td>
+      <td><span class="codeview">曲の先頭から3秒以上のときは曲の先頭に戻ります。<br />
+	      曲の先頭から3秒未満のときは前の曲に移ります。<br />
+	      Music listの先頭の曲のときは曲の先頭に戻ります。</span></td>
+      </tr>
+	  <tr class="listsub1">
+	    <td height="70"><div align="center"><span class="codeview"><img src="img/gtbtn/next.jpg" alt="" width="65" height="52" align="middle" /></span></div></td>
+  <td><span class="codeview">次の曲に移ります。<br />
+	      Music listの最後の曲のときは何もしません。 </span></td>
+      </tr>
+	  <tr>
+	    <td height="79"><div align="center"><span class="codeview"><img src="img/gtbtn/rewind.jpg" alt="" width="65" height="52" align="middle" /></span></div></td>
+  <td><span class="codeview">高速に逆方向で再生します。<br />
+	      もう一度押すと通常再生に戻ります。<br />
+	      次の曲、前の曲に移った場合は解除されます。</span></td>
+      </tr>
+	  <tr class="listsub1">
+	    <td height="82"><div align="center"><span class="codeview"><img src="img/gtbtn/ff.jpg" alt="" width="65" height="52" align="middle" /></span></div></td>
+  <td><span class="codeview">高速に順方向で再生します。<br />
+	      もう一度押すと通常再生に戻ります。<br />
+	      次の曲、前の曲に移った場合は解除されます。</span></td>
+      </tr>
+	  <tr>
+	    <td><div align="center"><span class="codeview"><img src="img/gtbtn/play.jpg" alt="" width="65" height="66" align="middle" /></span></div></td>
+	    <td><span class="codeview">曲の再生を開始します。<br />
+	      再生中にもう一度押すとポーズします。<br />
+	      </span></td>
+      </tr>
+	  <tr class="listsub1">
+	    <td><div align="center"><span class="codeview"><img src="img/gtbtn/stop.jpg" alt="" width="65" height="66" align="middle" /></span></div></td>
+	    <td><span class="codeview">曲の再生を停止します。<br />
+	      Music listが先頭に戻ります。</span></td>
+      </tr>
+</table>
+	<p>&nbsp;</p>
+</body>
+</html>
