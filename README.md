@@ -1,0 +1,2 @@
+# stamptools-macos
+# gtTrainer-ios
